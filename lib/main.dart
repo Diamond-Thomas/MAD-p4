@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//commented so that phases are clear because I added github to this project after i created the first phase of the project and the commit for it is already saved but not labeled
+
 void main() {
   runApp(const MyApp());
 }
