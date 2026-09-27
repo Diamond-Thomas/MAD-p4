@@ -14,13 +14,29 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            body: Column(
+            body: Container(
+                    color: Colors.blue,
+                    padding: const EdgeInsets.all(50),
+                    alignment: Alignment.center,
+                    child: Column(
                 children: [
-                  Image.asset('assets/blankpic.png'),
-                  Text("My name is Diamond.")
+                  Text("My name is Diamond."),
+                  Text("Flutter Developer"),
+                  SizedBox(
+                    height: 200,
+                    width: 200,
+                  child: Image.asset('assets/blankpic.png')
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: const <Widget>[
+                      Text("email: "),
+                      Text("RandomEmail.gmail.com"),
+                ])
                 ]
+            )      
             )
-
-        ));
+        )
+        );
   }
 }

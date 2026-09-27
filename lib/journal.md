@@ -3,3 +3,4 @@
 ### Did you have any issues updating the pubspec? How did you have to organize your files and update the document to get your image to show up?
 
 I had to put create a folder to put a blank profile pic image into and one of the biggest issues I had was that the pocture was originally a web photo I found off the internet and not a jpg or png so I had to find a photo that was a png file before the photo could work and then I restarted my emulator in order to get the image working.
+
